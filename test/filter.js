@@ -81,7 +81,7 @@ describe('Filter tests', function () {
 
     after(function() {
         filter.client.del(key);
+        filter.client.quit();
     });
 
 });
-
